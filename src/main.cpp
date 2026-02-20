@@ -44,7 +44,7 @@ void loop() {
         MYSERVO.write(0);     // reset servo
     }
 
-    Serial.print("Distance: ");
+    Serial.print("Distance:: ");
     Serial.print(distance);
     Serial.println("cm");
 
